@@ -100,9 +100,16 @@
   .grid1-1 {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    gap: 10px;
   }
   .col1 {
     order: -1;
+  }
+
+  .grid2-1 {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 10px;
   }
 }
 
@@ -121,4 +128,22 @@ img,
 h1 {
   grid-area: 1/1;
   text-align: center;
+}
+
+.galleri {
+  height: auto;
+  max-width: auto;
+}
+
+.galleri img {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.portrait {
+  display: grid;
+  object-fit: cover;
+  width: 493px;
+  height: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
