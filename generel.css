@@ -16,7 +16,6 @@ body {
 }
 
 .logo {
-  width: 30%;
   max-width: 30%;
 }
 
@@ -26,21 +25,28 @@ main {
   padding-right: 30px;
   margin: auto;
   margin-bottom: 20px;
-  height: 600px;
+  height: auto;
+  min-height: 600px;
 }
 
 h1 {
   color: #7d8f54;
   font-family: "Exo", sans-serif;
+  font-size: 40px;
+  margin-bottom: 20px;
 }
 
 h2 {
   color: #929f6d;
   font-family: "Neuton", serif;
+  font-size: 30px;
+  margin-bottom: 10px;
 }
 p {
   font-family: "PT Sans Caption", sans-serif;
+  font-size: 17px;
   color: #7d8f54;
+  margin: 0 10px 0 10px;
 }
 
 footer {
@@ -57,7 +63,6 @@ header {
   margin-bottom: 20px;
   width: 100%;
   min-height: 200px;
-  max-height: 200px;
 }
 
 .menu_style {
@@ -71,11 +76,77 @@ header {
   text-decoration: none;
 }
 
-.nav-links li a {
-  padding: 0 40px 0 40px;
+header .nav-links li a {
+  padding: 20px 40px 20px 40px;
+  text-decoration: none;
+  font-family: "Exo", sans-serif;
+  font-size: 20px;
+  border-radius: 3px 3px 3px 3px;
+  -webkit-border-radius: 3px 3px 3px 3px;
+  -moz-border-radius: 3px 3px 3px 3px;
+  border: 2px solid #a7af86;
+  color: black;
+
+  transition-duration: 0.1s;
+  transition-timing-function: linear;
+}
+header .nav-links li a:hover {
+  border-radius: 3px 3px 3px 3px;
+  -webkit-border-radius: 3px 3px 3px 3px;
+  -moz-border-radius: 3px 3px 3px 3px;
+  border: 2px solid #f0e68f;
+  color: #f0e68f;
+
+  transition-duration: 0.1s;
+  transition-timing-function: linear;
+
+  box-shadow: -9px -8px 8px 0px rgba(0, 0, 0, 0.13) inset;
+  -webkit-box-shadow: -9px -8px 8px 0px rgba(0, 0, 0, 0.13) inset;
+  -moz-box-shadow: -9px -8px 8px 0px rgba(0, 0, 0, 0.13) inset;
+}
+
+header #selected {
+  border-radius: 3px 3px 3px 3px;
+  -webkit-border-radius: 3px 3px 3px 3px;
+  -moz-border-radius: 3px 3px 3px 3px;
+  border: 2px solid #f0e68f;
+  color: #f0e68f;
+
+  box-shadow: -9px -8px 8px 0px rgba(0, 0, 0, 0.13) inset;
+  -webkit-box-shadow: -9px -8px 8px 0px rgba(0, 0, 0, 0.13) inset;
+  -moz-box-shadow: -9px -8px 8px 0px rgba(0, 0, 0, 0.13) inset;
+}
+
+footer .nav-links li a {
+  padding: 0px 40px 0px 40px;
   text-decoration: none;
   font-family: "PT Sans Caption", sans-serif;
 }
-.nav-links li a:hover {
-  font-size: 120%;
+
+/* === VIDEOINDSTILLINGER === */
+.iframe-wrapper {
+  position: relative;
+  width: 100%;
+  height: 0;
+
+  padding-top: 56.25%;
+}
+iframe {
+  position: absolute;
+  inset: 0;
+  height: 100%;
+  width: 100%;
+  border-radius: 8px 8px 8px 8px;
+  -webkit-border-radius: 8px 8px 8px 8px;
+  -moz-border-radius: 8px 8px 8px 8px;
+}
+
+img,
+video {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 8px 8px 8px 8px;
+  -webkit-border-radius: 8px 8px 8px 8px;
+  -moz-border-radius: 8px 8px 8px 8px;
 }
