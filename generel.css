@@ -161,3 +161,8 @@ video {
   -webkit-border-radius: 8px 8px 8px 8px;
   -moz-border-radius: 8px 8px 8px 8px;
 }
+
+.baggrundsbillede h1 {
+  color: #f0e68f;
+  -webkit-text-stroke: black 2px;
+}
