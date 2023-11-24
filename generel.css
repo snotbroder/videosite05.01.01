@@ -46,7 +46,7 @@ p {
   font-family: "PT Sans Caption", sans-serif;
   font-size: 17px;
   color: #7d8f54;
-  margin: 0 10px 0 10px;
+  margin-bottom: 10px;
 }
 
 footer {
@@ -62,7 +62,7 @@ header {
   padding: 30px 20px;
   margin-bottom: 20px;
   width: 100%;
-  min-height: 200px;
+  min-height: 150px;
 }
 
 .menu_style {
@@ -148,6 +148,27 @@ footer a:hover {
   transition-timing-function: linear;
 }
 footer a:active {
+  color: red;
+  transition-duration: 0.1s;
+  transition-timing-function: linear;
+}
+
+a {
+  text-decoration: none;
+  font-family: "Exo", sans-serif;
+
+  color: green;
+
+  transition-duration: 0.1s;
+  transition-timing-function: linear;
+}
+
+a:hover {
+  color: black;
+  transition-duration: 0.1s;
+  transition-timing-function: linear;
+}
+a:active {
   color: red;
   transition-duration: 0.1s;
   transition-timing-function: linear;
