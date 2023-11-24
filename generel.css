@@ -54,7 +54,7 @@ footer {
   text-align: end;
   height: 300px;
   background-color: #929f6d;
-  padding: 50px;
+  padding: 80px 50px 0 0;
 }
 /* MENUSTYLING */
 header {
@@ -117,10 +117,21 @@ header #selected {
   -moz-box-shadow: -9px -8px 8px 0px rgba(0, 0, 0, 0.13) inset;
 }
 
-footer .nav-links li a {
-  padding: 0px 40px 0px 40px;
+footer a {
+  padding: 20px 40px 20px 40px;
   text-decoration: none;
-  font-family: "PT Sans Caption", sans-serif;
+  font-family: "Exo", sans-serif;
+  font-size: 17px;
+  color: black;
+
+  transition-duration: 0.1s;
+  transition-timing-function: linear;
+}
+
+footer a:hover {
+  color: #f0e68f;
+  transition-duration: 0.1s;
+  transition-timing-function: linear;
 }
 
 /* === VIDEOINDSTILLINGER === */
