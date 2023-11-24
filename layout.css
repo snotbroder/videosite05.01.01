@@ -130,6 +130,18 @@ h1 {
   text-align: center;
 }
 
+.beskrivelse {
+  display: grid;
+  place-items: center;
+  place-items: baseline;
+}
+
+img,
+h5 {
+  grid-area: 1/1;
+  text-align: center;
+}
+
 .galleri {
   height: auto;
   max-width: auto;
