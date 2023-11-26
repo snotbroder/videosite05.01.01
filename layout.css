@@ -88,12 +88,6 @@
   .nav-links {
     margin-top: 10px;
   }
-
-  .nav-links li a {
-    text-decoration: none;
-  }
-  .nav-links li a:hover {
-  }
 }
 
 @media (min-width: 990px) {
